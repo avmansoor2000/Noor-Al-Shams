@@ -24,7 +24,7 @@ const Navbar = () => {
               ABOUT US
             </li>
             </Link>
-            <Link to="/services">
+            <Link to="/products">
             <li className="flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               SERVICE
             </li>
