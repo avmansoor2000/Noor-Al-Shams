@@ -11,11 +11,7 @@ const Footer = () => {
            <footer className="bg-gray-100">
                 <div className="container px-6 py-8 mx-auto">
                     <div className="flex flex-col items-center text-center">
-<<<<<<< HEAD
                         <Link to="/Noor-Al-Shams/">
-=======
-                        <Link to="Noor-Al-Shams/">
->>>>>>> 7e54d532a9c074ac3d87fe03b90b0b4d8c58c84a
                             <div className=' flex items-center '>
                             <img
                                 className=" object-cover h-16 w-auto"
@@ -27,11 +23,7 @@ const Footer = () => {
                         </Link>
                         <div className="flex flex-wrap justify-center mt-6 -mx-4">
                             <Link
-<<<<<<< HEAD
                                 to="/Noor-Al-Shams/"
-=======
-                                to="Noor-Al-Shams/"
->>>>>>> 7e54d532a9c074ac3d87fe03b90b0b4d8c58c84a
                                 className="mx-4 text-sm text-gray-800 transition-colors duration-300 hover:text-blue-500 dark:text-gray-800 dark:hover:text-blue-400"
                             >
                                 Home
