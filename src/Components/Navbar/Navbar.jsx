@@ -14,22 +14,22 @@ const Navbar = () => {
         <div className="container flex justify-between h-16 mx-auto">
           <h1 className=' text-2xl font-bold flex items-center p-2'>Forestry</h1>
           <ul className={`items-stretch space-x-3 space-y-3 pt-10 md:pt-0 md:flex ${isDropdownOpen ? 'block' : 'hidden'}`}>
-            <Link to="/Noor-Al-Shams/">
+            <Link to="/">
             <li className="flex items-center px-4 md:pt-3 pt-2 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               HOME
             </li>
             </Link>
-            <Link to="Noor-Al-Shams/about">
+            <Link to="/about">
             <li className="flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               ABOUT US
             </li>
             </Link>
-            <Link to="Noor-Al-Shams/services">
+            <Link to="/product">
             <li className="flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
-              SERVICE
+              Product
             </li>
             </Link>
-            <Link to='Noor-Al-Shams/contact'>
+            <Link to='/contact'>
             <li className="flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               CONTACT
             </li>
