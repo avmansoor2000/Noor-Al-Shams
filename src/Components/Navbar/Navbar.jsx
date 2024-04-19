@@ -13,7 +13,7 @@ const Navbar = () => {
       <header className="p-4 z-10 absolute bg-[#f0f4f8] bg-opacity-30 rounded-b-3xl w-4/5 dark:text-gray-800">
         <div className=" flex justify-between items-center h-16 mx-auto">
           <h1 className=' text-base font-bold flex items-center p-2'>Noor Al Shams</h1>
-          <ul className={`items-stretch space-x-3 space-y-1 pt-10 md:pt-0 md:flex ${isDropdownOpen ? 'block' : 'hidden'}`}>
+          <ul className={`items-stretch space-x-3 space-y-1 pt-10 md:pt-0 md:flex ${isDropdownOpen ? 'block bg-[#f0f4f8] rounded-2xl bg-opacity-35 pt-0 mt-32 py-5' : 'hidden'}`}>
             <Link to="/Noor-Al-Shams/">
             <li className=" text-base flex items-center px-4 md:pt-1 pt-1 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               HOME
@@ -25,7 +25,7 @@ const Navbar = () => {
             </li>
             </Link>
             <Link to="/Noor-Al-Shams/products">
-            <li className="text-base flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
+            <li className="text-base flex items-center px-4 -mb-1 font-bold achover:text-blue-800 hover:cursor-pointer">
               PRODUCT
             </li>
             </Link>
