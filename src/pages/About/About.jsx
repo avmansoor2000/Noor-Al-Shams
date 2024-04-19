@@ -12,7 +12,7 @@ const About = () => {
                         <img src="https://img.freepik.com/free-vector/people-taking-care-plants_23-2148967131.jpg?t=st=1713428267~exp=1713431867~hmac=e00102b9db021d5fd5b802541f90e3ad443e34183dd82c3bf718afb00eb892bf&w=996" />
                     </div>
                 </div>
-                <div className="sm:w-1/2 p-5">
+                <div className="sm:w-1/2 p-5 md:mt-16">
                     <div className="text">
                         <span className="text-gray-500 border-b-2 border-indigo-600 uppercase">
                             About us

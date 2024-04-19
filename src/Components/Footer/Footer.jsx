@@ -11,37 +11,37 @@ const Footer = () => {
            <footer className="bg-gray-100">
                 <div className="container px-6 py-8 mx-auto">
                     <div className="flex flex-col items-center text-center">
-                        <Link to="Noor-Al-Shams/">
+                        <Link to="/Noor-Al-Shams/">
                             <div className=' flex items-center '>
                             <img
                                 className=" object-cover h-16 w-auto"
                                 src={logo}
                                 alt=""
                             />
-                            <h1 className=' font-bold'>Company Name</h1>
+                            <h1 className=' font-bold'>Noor Al Shams</h1>
                             </div>
                         </Link>
                         <div className="flex flex-wrap justify-center mt-6 -mx-4">
                             <Link
-                                to="Noor-Al-Shams/"
+                                to="/Noor-Al-Shams/"
                                 className="mx-4 text-sm text-gray-800 transition-colors duration-300 hover:text-blue-500 dark:text-gray-800 dark:hover:text-blue-400"
                             >
                                 Home
                             </Link>
                             <Link
-                                to="Noor-Al-Shams/about"
+                                to="/Noor-Al-Shams/about"
                                 className="mx-4 text-sm text-gray-800 transition-colors duration-300 hover:text-blue-500 dark:text-gray-800 dark:hover:text-blue-400"
                             >
                                 About
                             </Link>
                             <Link
-                                to="Noor-Al-Shams/product"
+                                to="/Noor-Al-Shams/products"
                                 className="mx-4 text-sm text-gray-800 transition-colors duration-300 hover:text-blue-500 dark:text-gray-800 dark:hover:text-blue-400"
                             >
                                 Product
                             </Link>
                             <Link
-                                to="Noor-Al-Shams/contact"
+                                to="/Noor-Al-Shams/contact"
                                 className="mx-4 text-sm text-gray-800 transition-colors duration-300 hover:text-blue-500 dark:text-gray-800 dark:hover:text-blue-400"
                             >
                                 Contact

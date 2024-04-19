@@ -9,28 +9,28 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-      <header className="p-4 z-10 absolute w-full bg-transparent dark:text-gray-800">
-        <div className="container flex justify-between h-16 mx-auto">
-          <h1 className=' text-2xl font-bold flex items-center p-2'>Forestry</h1>
-          <ul className={`items-stretch space-x-3 space-y-3 pt-10 md:pt-0 md:flex ${isDropdownOpen ? 'block' : 'hidden'}`}>
-            <Link to="Noor-Al-Shams/">
-            <li className="flex items-center px-4 md:pt-3 pt-2 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
+    <div className=' flex justify-center '>
+      <header className="p-4 z-10 absolute bg-[#f0f4f8] bg-opacity-30 rounded-b-3xl w-4/5 dark:text-gray-800">
+        <div className=" flex justify-between items-center h-16 mx-auto">
+          <h1 className=' text-base font-bold flex items-center p-2'>Noor Al Shams</h1>
+          <ul className={`items-stretch space-x-3 space-y-1 pt-10 md:pt-0 md:flex ${isDropdownOpen ? 'block' : 'hidden'}`}>
+            <Link to="/Noor-Al-Shams/">
+            <li className=" text-base flex items-center px-4 md:pt-1 pt-1 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               HOME
             </li>
             </Link>
-            <Link to="Noor-Al-Shams/about">
-            <li className="flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
+            <Link to="/Noor-Al-Shams/about">
+            <li className="text-base flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               ABOUT US
             </li>
             </Link>
-            <Link to="Noor-Al-Shams/products">
-            <li className="flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
+            <Link to="/Noor-Al-Shams/products">
+            <li className="text-base flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               PRODUCT
             </li>
             </Link>
-            <Link to='Noor-Al-Shams/contact'>
-            <li className="flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
+            <Link to='/Noor-Al-Shams/contact'>
+            <li className="text-base flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               CONTACT
             </li>
             </Link>

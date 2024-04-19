@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; // Import the main CSS file directly
+import './Slider.css'
 
 // Import Swiper styles
 import 'swiper/css';
@@ -36,7 +37,7 @@ const Sliders = ({ banners }) => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-screen w-full"
+        className="mySwiper h-screen w-full relative"
         
       >
         <SwiperSlide><img src={banner1} alt="" className=' object-cover h-full w-full'/></SwiperSlide>
@@ -48,6 +49,8 @@ const Sliders = ({ banners }) => {
         <SwiperSlide><img src={banner7} alt="" className=' object-cover h-full w-full'/></SwiperSlide>
         
       </Swiper>
+
+      <h1 className='gradient-text absolute top-60 px-12 left-4 z-10 text-4xl md:text-5xl font-bold  text-center animate-gradient '>  Noor-Al-Shams & Ornamental plants trading llc       <span className='one'> love nature Live better </span></h1>
     </>
   );
 };

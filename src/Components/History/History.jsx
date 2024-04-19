@@ -15,11 +15,11 @@ const History = () => {
       <div className="space-y-2 inline-block text-2xl font-semibold sm:text-3xl">
        
         <p className=" text-sm dark:text-green-600">
-          Welcome to Forestry   
+          Welcome to Noor Al Shams  
         </p>
         <h1>
 
-      Foresty History
+        Noor Al Shams History
         </h1>
       </div>
       <div className="dark:text-gray-800">
