@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradient-text {
+    background-image: linear-gradient(
+        to right,
+        #1d371b,
+        #446649,
+        #194110,
+        #3fbc5c,
+        #1b8a1b,
+        #2be02e,
+        #e4d9b4
+    );
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent; /* Hide the original text */
+    background-size: 300% 300%;
+}

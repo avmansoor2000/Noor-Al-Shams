@@ -1,13 +1,13 @@
 .gradient-text {
     background-image: linear-gradient(
         to right,
-        #FFD700,
-        #FFA500,
-        #FFF8DC,
-        #FFA500,
-        #FFD700,
-        #FFA500,
-        #FFF8DC
+        #15830d,
+        #0b9820,
+        #5fdc43,
+        #3fbc5c,
+        #1b8a1b,
+        #2be02e,
+        #e4d9b4
     );
     -webkit-background-clip: text; /* For Safari */
     background-clip: text;

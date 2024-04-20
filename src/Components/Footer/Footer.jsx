@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { RiInstagramFill, RiFacebookCircleFill, RiYoutubeFill } from "react-icons/ri";
 
-import logo from '../../assets/img/Logo/logo.png'
+import logo from '../../assets/img/Logo/Logo.png'
 
 
 const Footer = () => {
@@ -12,16 +12,16 @@ const Footer = () => {
                 <div className="container px-6 py-8 mx-auto">
                     <div className="flex flex-col items-center text-center">
                         <Link to="/Noor-Al-Shams/">
-                            <div className=' flex items-center '>
+                            <div className=' flex flex-col items-center '>
                             <img
                                 className=" object-cover h-16 w-auto"
                                 src={logo}
                                 alt=""
                             />
-                            <h1 className=' font-bold'>Noor Al Shams</h1>
+                            <h1 className=' font-bold text-[#455B2D]'>Noor Al Shams</h1>
                             </div>
                         </Link>
-                        <div className="flex flex-wrap justify-center mt-6 -mx-4">
+                        <div className="flex flex-wrap justify-center mt-6 -mx-4 font-semibold">
                             <Link
                                 to="/Noor-Al-Shams/"
                                 className="mx-4 text-sm text-gray-800 transition-colors duration-300 hover:text-blue-500 dark:text-gray-800 dark:hover:text-blue-400"

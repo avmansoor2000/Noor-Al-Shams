@@ -3,6 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; // Import the main CSS file directly
 import './Slider.css'
 
+
+// importing images
+
+import logo from '../../assets/img/Logo/Logo.png'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -25,6 +29,7 @@ const Sliders = ({ banners }) => {
   
   return (
     <>
+        <div className=' h-screen w-full bg-black absolute z-10 bg-opacity-70'></div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -35,7 +40,7 @@ const Sliders = ({ banners }) => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
+        // navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper h-screen w-full relative"
         
@@ -50,7 +55,10 @@ const Sliders = ({ banners }) => {
         
       </Swiper>
 
-      <h1 className='gradient-text absolute top-60 px-12 left-4 z-10 text-4xl md:text-5xl font-bold  text-center animate-gradient '>  Noor-Al-Shams & Ornamental plants trading llc       <span className='one'> love nature Live better </span></h1>
+      <div className=' text-[#5dc03c] font-serif flex flex-col items-center absolute top-60 px-12 left-4 z-10 text-xl sm:text-4xl md:text-5xl sm:left-20 md:left-20 lg:left-56 xl:left-80 xl:text-7xl font-bold text-center animate-gradient '>
+        <img src={logo} className='  h-20  w-20' alt="" />
+        <h1>Noor Al Shams</h1>
+        <h1 > Love Nature Live Better </h1></div>
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 // importing pots images
 
 import whitePot from '../../assets/img/pots/WhiteBalladPot.jpg'
@@ -8,6 +9,8 @@ import opaldeligtPot from '../../assets/img/pots/OpalDelightPotPlantshop.jpg'
 import timelessPot from '../../assets/img/pots/TimelessTrellisPotPlantshop.jpg'
 import radiancePot from '../../assets/img/pots/RadiancePotPlantshop.jpg'
 import reflectionPot from '../../assets/img/pots/ReflectionPotPlantshop.jpg'
+
+
 
 const FeaturedProducts = () => {
 
@@ -79,7 +82,7 @@ const FeaturedProducts = () => {
                                     <span className="absolute top-0 end-0 rounded-se-xl rounded-es-xl text-xs font-medium bg-gray-800 text-white py-1.5 px-3 dark:bg-gray-900">
                                         {item.tag}
                                     </span>
-                                    <h3 className={`text-xl absolute top-[45%] left-[30%] group-hover:scale-150 transition-transform duration-100 ease-in-out dark:text-black hidden group-hover:block font-bold`}>
+                                    <h3 className={`text-xl absolute top-[45%] left-[30%] group-hover:scale-150 transition-transform duration-100 ease-in-out gradient-text  hidden group-hover:block font-bold`}>
                                         {item.name}
                                     </h3>
                                 </div>
@@ -89,9 +92,8 @@ const FeaturedProducts = () => {
                     }
 
                 </div>
-                {/* End Grid */}
             </div>
-            {/* End Card Blog */}
+            
 
 
         </div>

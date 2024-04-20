@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import {Link} from 'react-scroll'
+import logo from '../../assets/img/Logo/Logo.png'
 
 const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -9,11 +11,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className=' flex justify-center '>
-      <header className="p-4 z-10 absolute bg-[#f0f4f8] bg-opacity-30 rounded-b-3xl w-4/5 dark:text-gray-800">
-        <div className=" flex justify-between items-center h-16 mx-auto">
-          <h1 className=' text-base font-bold flex items-center p-2'>Noor Al Shams</h1>
-          <ul className={`items-stretch space-x-3 space-y-1 pt-10 md:pt-0 md:flex ${isDropdownOpen ? 'block bg-[#f0f4f8] rounded-2xl bg-opacity-35 pt-0 mt-32 py-5' : 'hidden'}`}>
+    <div className=' flex justify-center'>
+      <header className="p-4 z-20 absolute bg-white  rounded-b-3xl rounded-t-3xl mt-8 w-4/5 dark:text-gray-800">
+        <div className=" flex justify-between items-center h-16 mx-auto -m-2 ">
+          <div className=' flex flex-col items-center'>
+          <img src={logo} className='  h-10  w-10 ' alt="" />
+          <h1 className=' text-base font-bold flex items-center pl-3 text-green-800'>Noor Al Shams</h1>
+          </div>
+          <ul className={`items-stretch space-x-3 space-y-1 pt-10 md:pt-0 md:flex ${isDropdownOpen ? 'block bg-white rounded-2xl pt-0 mt-60 py-5 ' : 'hidden'}`}>
             <Link to="/Noor-Al-Shams/">
             <li className=" text-base flex items-center px-4 md:pt-1 pt-1 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
               HOME
