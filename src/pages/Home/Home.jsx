@@ -7,6 +7,9 @@ import Stats from '../../Components/Stats/Stats'
 import Testimonials from '../../Components/Testimonials/Testimonials'
 import Footer from '../../Components/Footer/Footer'
 import FeaturedProducts from '../../Components/FeaturedProducts/FeaturedProducts'
+import Service from '../../Components/Service/Service'
+// import Contact from '../../Components/Contact/Contact'
+
 
 const Home = () => {
   return (
@@ -16,8 +19,10 @@ const Home = () => {
       <Stats/>
       <History/>
       {/* <Banner/>  */}
-      <FeaturedProducts/>
       <Testimonials/>
+      <Service/>
+      <FeaturedProducts/>
+      {/* <Contact/> */}
       <Footer/>
     </div>
   )

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Img from '../../assets/img/banner/banner3.jpg'
+import { Element } from 'react-scroll'
 
 const History = () => {
 
@@ -14,7 +15,10 @@ const History = () => {
 
   return (
     <div>
+      <Element id='about'>
+      
       <div className="p-5 mx-auto sm:p-10 md:p-16 dark:bg-gray-100 dark:text-gray-800">
+      
         <div className="flex flex-col max-w-3xl mx-auto overflow-hidden rounded-3xl">
           <img
             src={Img}
@@ -49,7 +53,7 @@ const History = () => {
           </div>
         </div>
       </div>
-
+      </Element>
     </div>
   )
 }

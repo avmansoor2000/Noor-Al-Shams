@@ -17,7 +17,8 @@ const Testimonials = () => {
         <div>
             <section className="my-8">
                 <div className="container mx-auto flex flex-col items-center pb-6 mb-4 md:p-10 md:px-12">
-                    <h1 className="text-4xl font-semibold leading-none text-center">
+                <h3 className=' font-bold text-green-700'>Testimonials</h3>
+                    <h1 className="text-2xl font-bold leading-none text-center">
                         What our customers are saying about us
                     </h1>
                 </div>
@@ -63,7 +64,8 @@ const Testimonials = () => {
                                     </svg>
                                 </div>
                                 <span className="w-12 h-1 my-2 rounded-lg dark:bg-green-600 " />
-                                <p>Geethu Kv</p>
+                                <p>Sruthi kk
+                                </p>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
