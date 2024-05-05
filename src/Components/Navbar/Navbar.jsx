@@ -43,17 +43,7 @@ const Navbar = () => {
                 ABOUT US
               </li>
             </Link>
-            <Link
-              activeClass="active" // Optional: Add a class for active link styling
-              to="products"
-              spy={true} // Enables active link highlighting
-              smooth={true} // Enables smooth scrolling
-              offset={-50} // Optional: Adjust scroll offset for header clearance
-            >
-              <li className="text-base flex items-center px-4 -mb-1 font-bold achover:text-blue-800 hover:cursor-pointer">
-                PRODUCTS
-              </li>
-            </Link>
+            
             <Link
               activeClass="active" // Optional: Add a class for active link styling
               to="service"
@@ -63,6 +53,17 @@ const Navbar = () => {
             >
               <li className="text-base flex items-center px-4 -mb-1 font-bold hover:text-blue-800 hover:cursor-pointer">
                 SERVICE
+              </li>
+            </Link>
+            <Link
+              activeClass="active" // Optional: Add a class for active link styling
+              to="products"
+              spy={true} // Enables active link highlighting
+              smooth={true} // Enables smooth scrolling
+              offset={-50} // Optional: Adjust scroll offset for header clearance
+            >
+              <li className="text-base flex items-center px-4 -mb-1 font-bold achover:text-blue-800 hover:cursor-pointer">
+                PRODUCTS
               </li>
             </Link>
           </ul>

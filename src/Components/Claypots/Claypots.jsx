@@ -3,44 +3,44 @@ import React from 'react'
 
 // importing plantpots images
 
-import whitePot from '../../assets/img/plantpots/whiteballad.png'
-import aristoPot from '../../assets/img/plantpots/aristo.png'
-import opaldeligtPot from '../../assets/img/plantpots/opaldelight.png'
-import timelessPot from '../../assets/img/plantpots/timeless.png'
-import radiancePot from '../../assets/img/plantpots/radiance.png'
-import reflectionPot from '../../assets/img/plantpots/coralblush.png'
+import whitePot from '../../assets/img/plantpots/dunes.png'
+import aristoPot from '../../assets/img/plantpots/bell.png'
+import opaldeligtPot from '../../assets/img/plantpots/mudbowl.png'
+import timelessPot from '../../assets/img/plantpots/rosy.png'
+import radiancePot from '../../assets/img/plantpots/whiteamour.png'
+import reflectionPot from '../../assets/img/plantpots/mudcoral.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Element } from 'react-scroll'
 
 
 
-const FeaturedProducts = () => {
+const Claypots = () => {
 
     const featured = [
         {
 
             img: whitePot,
             id: 1,
-            name: "White Ballad",
+            name: "Dunes",
             tag: "featured"
         },
         {
             img: aristoPot,
             id: 2,
-            name: "Aristo",
+            name: "Bell",
             tag: "Hot selling"
         },
         {
             img: opaldeligtPot,
             id: 3,
-            name: "Opal Delight",
+            name: "Mud Bowl",
             tag: "Trending"
         },
         {
             img: timelessPot,
             id: 4,
-            name: "Timeless Trellis",
+            name: "Rosy",
             tag: "featured"
         },
         {
@@ -52,7 +52,7 @@ const FeaturedProducts = () => {
         {
             img: reflectionPot,
             id: 1,
-            name: "Coral Blush",
+            name: "Mud Coral",
             tag: "featured"
         },
     ]
@@ -64,10 +64,10 @@ const FeaturedProducts = () => {
 
                     <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                         <h2 className="text-2xl font-bold md:leading-tight dark:text-black">
-                            Featured Products
+                            Clay Pot Classics
                         </h2>
                         <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Experience unparalleled quality and timeless style with our featured products.
+                        Discover the timeless allure of traditional clay pots, adding rustic charm and natural warmth to your green haven in an instant.
                         </p>
                     </div>
 
@@ -144,4 +144,4 @@ const FeaturedProducts = () => {
     )
 }
 
-export default FeaturedProducts
+export default Claypots

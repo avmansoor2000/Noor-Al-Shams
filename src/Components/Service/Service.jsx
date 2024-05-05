@@ -17,16 +17,16 @@ const Service = () => {
         heading:"Catus Succulents",
         para:"Explore the resilience and beauty of desert-adapted succulents"
     },
-    {
-        img:bamboo,
-        heading:"Bamboo plam trees",
-        para:"Embrace the elegance and tranquility of bamboo palm trees"
-    },
-    {
-        img:bonasi,
-        heading:"Bonasi Plants",
-        para:"Discover the artistry and serenity of miniature bonsai plants"
-    },
+    // {
+    //     img:bamboo,
+    //     heading:"Bamboo plam trees",
+    //     para:"Embrace the elegance and tranquility of bamboo palm trees"
+    // },
+    // {
+    //     img:bonasi,
+    //     heading:"Bonasi Plants",
+    //     para:"Discover the artistry and serenity of miniature bonsai plants"
+    // },
     {
         img:cannabis,
         heading:"Medicine Plants",
@@ -53,7 +53,7 @@ const Service = () => {
         <Element id='service'>
       <div className=' flex flex-col  justify-center items-center'>
          <h3 className=' font-bold text-green-700'>OUR SERVICES</h3>
-         <h1 className=' text-2xl font-bold'>Nursery & Lanscaping Services</h1>
+         <h1 className=' text-2xl font-bold text-center'>Nursery & Lanscaping Services</h1>
       </div>
       <div  className=' flex flex-wrap px-8 py-10 gap-5 justify-center '>
         {

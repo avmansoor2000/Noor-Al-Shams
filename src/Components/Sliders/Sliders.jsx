@@ -62,7 +62,7 @@ const Sliders = ({ banners }) => {
         <h1>Noor Al Shams</h1>
         <h1 > Love Nature Live Better </h1>
         </div>
-        <div className=' absolute text-white z-20 top-[85%] inset-0 flex justify-center items-center'>
+        <div className=' absolute text-white z-10 top-[85%] inset-0 flex justify-center items-center'>
         <h1 className=' text-center' >Take care of the trees, They will take <br/> care of <span className=' text-green-500 font-bold'>you.</span></h1>
         </div>
         </Element>

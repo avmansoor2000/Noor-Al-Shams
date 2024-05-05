@@ -8,6 +8,9 @@ import Testimonials from '../../Components/Testimonials/Testimonials'
 import Footer from '../../Components/Footer/Footer'
 import FeaturedProducts from '../../Components/FeaturedProducts/FeaturedProducts'
 import Service from '../../Components/Service/Service'
+import LuxuryProducts from '../../Components/LuxuryProducts/LuxuryProducts'
+import StoneProducts from '../../Components/StoneProducts/StoneProducts'
+import Claypots from '../../Components/Claypots/Claypots'
 // import Contact from '../../Components/Contact/Contact'
 
 
@@ -22,6 +25,9 @@ const Home = () => {
       <Testimonials/>
       <Service/>
       <FeaturedProducts/>
+      <LuxuryProducts/>
+      <StoneProducts/>
+      <Claypots/>
       {/* <Contact/> */}
       <Footer/>
     </div>

@@ -3,56 +3,56 @@ import React from 'react'
 
 // importing plantpots images
 
-import whitePot from '../../assets/img/plantpots/whiteballad.png'
-import aristoPot from '../../assets/img/plantpots/aristo.png'
-import opaldeligtPot from '../../assets/img/plantpots/opaldelight.png'
-import timelessPot from '../../assets/img/plantpots/timeless.png'
-import radiancePot from '../../assets/img/plantpots/radiance.png'
-import reflectionPot from '../../assets/img/plantpots/coralblush.png'
+import whitePot from '../../assets/img/plantpots/luxurygold.png'
+import aristoPot from '../../assets/img/plantpots/royalgold.png'
+import opaldeligtPot from '../../assets/img/plantpots/coralblush.png'
+import timelessPot from '../../assets/img/plantpots/blueocean.png'
+import radiancePot from '../../assets/img/plantpots/baluster.png'
+import reflectionPot from '../../assets/img/plantpots/cessantribbon.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import { Element } from 'react-scroll'
 
 
 
-const FeaturedProducts = () => {
+const LuxuryProducts = () => {
 
     const featured = [
         {
 
             img: whitePot,
             id: 1,
-            name: "White Ballad",
+            name: "Luxury Gold",
             tag: "featured"
         },
         {
             img: aristoPot,
             id: 2,
-            name: "Aristo",
+            name: "Royal Gold",
             tag: "Hot selling"
         },
         {
             img: opaldeligtPot,
             id: 3,
-            name: "Opal Delight",
+            name: "Coral Blush",
             tag: "Trending"
         },
         {
             img: timelessPot,
             id: 4,
-            name: "Timeless Trellis",
+            name: "Blue ocean",
             tag: "featured"
         },
         {
             img: radiancePot,
             id: 5,
-            name: "Radiance",
+            name: "Baluster",
             tag: "featured"
         },
         {
             img: reflectionPot,
             id: 1,
-            name: "Coral Blush",
+            name: "Cessant Ribbon",
             tag: "featured"
         },
     ]
@@ -64,10 +64,10 @@ const FeaturedProducts = () => {
 
                     <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
                         <h2 className="text-2xl font-bold md:leading-tight dark:text-black">
-                            Featured Products
+                        Premium Selection
                         </h2>
                         <p className="mt-1 text-gray-600 dark:text-gray-400">
-                            Experience unparalleled quality and timeless style with our featured products.
+                        Discover the epitome of style and quality with our luxury pots, ideal for discerning plant enthusiasts looking to elevate their green spaces.
                         </p>
                     </div>
 
@@ -144,4 +144,4 @@ const FeaturedProducts = () => {
     )
 }
 
-export default FeaturedProducts
+export default LuxuryProducts
