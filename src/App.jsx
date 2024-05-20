@@ -1,5 +1,4 @@
 import './App.css'
-import Contact from './pages/Contact/Contact';
 import About from './pages/About/About';
 import Home from './pages/Home/Home'
 
@@ -14,7 +13,7 @@ function App() {
     <Router>
       <Routes>
         <Route path='/Noor-Al-Shams/' element={<Home/>}/>
-        <Route path='/Noor-Al-Shams/contact' element={<Contact/>}/>
+        
         <Route path='/Noor-Al-Shams/about' element={<History/>}/>
         <Route path='/Noor-Al-Shams/products' element={<Products/>}/>
       </Routes>

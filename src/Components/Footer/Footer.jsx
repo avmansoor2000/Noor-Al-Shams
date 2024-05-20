@@ -78,7 +78,7 @@ const Footer = () => {
                         </p>
                         <div className="flex -mx-2">
                             <a
-                                href='https://www.linkedin.com/in/akashkottil/'
+                                href='https://www.instagram.com/nooralshams_plants?igsh=MWg1ZTllNjN0ajJ5YQ%3D%3D&utm_source=qr'
                                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-800 hover:text-blue-500 dark:hover:text-blue-400"
                             >
                                 <a href=""></a>
@@ -86,17 +86,17 @@ const Footer = () => {
 
                             </a>
                             <a
-                                href='https://www.linkedin.com/in/akashkottil/'
+                                href='https://www.facebook.com/profile.php?id=61556752566116&mibextid=LQQJ4d/'
                                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-800 hover:text-blue-500 dark:hover:text-blue-400"
                             >
                                 <RiFacebookCircleFill />
                             </a>
-                            <a
+                            {/* <a
                                 href='https://www.linkedin.com/in/akashkottil/'
                                 className="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-800 hover:text-blue-500 dark:hover:text-blue-400"
                             >
                                 <RiYoutubeFill />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </div>
