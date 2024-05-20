@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 // import { Link } from 'react-router-dom';
 
-import logo from '../../assets/img/Logo/Logo.png'
+import logo from '../../assets/img/Logo/logo.png'
 import { Link, Element, animateScroll as scroll } from 'react-scroll';
 
 
@@ -64,6 +64,17 @@ const Navbar = () => {
             >
               <li className="text-base flex items-center px-4 -mb-1 font-bold achover:text-blue-800 hover:cursor-pointer">
                 PRODUCTS
+              </li>
+            </Link>
+            <Link
+              activeClass="active" // Optional: Add a class for active link styling
+              to="contact"
+              spy={true} // Enables active link highlighting
+              smooth={true} // Enables smooth scrolling
+              offset={-50} // Optional: Adjust scroll offset for header clearance
+            >
+              <li className="text-base flex items-center px-4 -mb-1 font-bold achover:text-blue-800 hover:cursor-pointer">
+                CONTACT
               </li>
             </Link>
           </ul>
