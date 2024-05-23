@@ -15,7 +15,7 @@ const Contact = () => {
               <p>Dar Al Zain Flowers LLC, Al Karama, Dubai, UAE</p>
             </div>
           </div>
-          <div className='grid grid-cols-2 gap-4 md:w-[51%]'>
+          <div className='grid grid-cols-2 gap-4 md:w-[51%] '>
           <div className="col-lg-3 col-md-6 flex flex-col items-center shadow-lg p-4">
             <div className="info-item flex flex-col justify-center items-center ">
               <i className="bi bi-envelope text-4xl text-primary mb-4"></i>
