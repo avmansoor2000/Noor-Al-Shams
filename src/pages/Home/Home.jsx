@@ -11,8 +11,7 @@ import Service from '../../Components/Service/Service'
 import LuxuryProducts from '../../Components/LuxuryProducts/LuxuryProducts'
 import StoneProducts from '../../Components/StoneProducts/StoneProducts'
 import Claypots from '../../Components/Claypots/Claypots'
-import Contact from '../../Components/Contact/Contact'
-import Plants from '../../Components/Plants/Plants'
+import Contact from '../Contact/Contact'
 // import Contact from '../../Components/Contact/Contact'
 
 
@@ -26,7 +25,6 @@ const Home = () => {
       {/* <Banner/>  */}
       <Testimonials/>
       <Service/>
-      <Plants/>
       <FeaturedProducts/>
       <LuxuryProducts/>
       <StoneProducts/>

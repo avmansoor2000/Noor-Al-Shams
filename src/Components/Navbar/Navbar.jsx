@@ -66,6 +66,17 @@ const Navbar = () => {
                 PRODUCTS
               </li>
             </Link>
+            <Link
+              activeClass="active" // Optional: Add a class for active link styling
+              to="contact"
+              spy={true} // Enables active link highlighting
+              smooth={true} // Enables smooth scrolling
+              offset={-50} // Optional: Adjust scroll offset for header clearance
+            >
+              <li className="text-base flex items-center px-4 -mb-1 font-bold achover:text-blue-800 hover:cursor-pointer">
+                CONTACT
+              </li>
+            </Link>
           </ul>
           <button className="flex justify-end p-4 md:hidden" onClick={toggleDropdown}>
             <svg
