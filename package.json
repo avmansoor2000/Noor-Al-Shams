@@ -2,7 +2,7 @@
   "name": "forestry",
   "private": true,
   "version": "0.0.0",
-  "homepage": "www.nooralshamsdubai.com",
+  "homepage": "https://www.nooralshamsdubai.com/",
   "type": "module",
   "scripts": {
     "dev": "vite",

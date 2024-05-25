@@ -12,10 +12,9 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path='/Noor-Al-Shams/' element={<Home/>}/>
-        
-        <Route path='/Noor-Al-Shams/about' element={<History/>}/>
-        <Route path='/Noor-Al-Shams/products' element={<Products/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<History/>}/>
+        <Route path='/products' element={<Products/>}/>
       </Routes>
     </Router>
       
