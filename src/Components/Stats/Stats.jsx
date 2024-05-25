@@ -19,7 +19,7 @@ const Stats = () => {
       <p className="text-sm sm:text-base text-gray-700 font-bold">Stylish pots</p>
     </div>
     <div className="flex flex-col justify-start m-2 lg:m-6">
-      <p className="text-4xl font-bold leading-none lg:text-6xl text-green-500"><CountUp end={30} duration={5}></CountUp><span className=' text-gray-700'>+</span></p>
+      <p className="text-4xl font-bold leading-none lg:text-6xl text-green-500"><CountUp end={10} duration={5}></CountUp><span className=' text-gray-700'>+</span></p>
       <p className="text-sm sm:text-base text-gray-700 font-bold">Years of experience</p>
     </div>
     <div className="flex flex-col justify-start m-2 lg:m-6">
