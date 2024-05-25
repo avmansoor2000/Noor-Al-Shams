@@ -2,6 +2,7 @@
   "name": "forestry",
   "private": true,
   "version": "0.0.0",
+  "homepage": "www.nooralshamsdubai.com",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -35,6 +36,6 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
-    "vite": "^5.2.0"
+    "vite": "^5.2.11"
   }
 }
